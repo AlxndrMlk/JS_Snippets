@@ -1,6 +1,6 @@
 let promiseToPlayGMajorChord = new Promise(function(resolve, reject) {
 
-  // trying hard to play G major and not to add altered 9th
+  // trying hard to play G major chord and not to add an altered 9th
 
   let isGMajor = Math.random() > .5;
 
